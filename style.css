@@ -101,6 +101,7 @@ header {
     padding: 20px;
     min-width: 15vw;
     min-height: 30vh;
+    text-align: center;
 }
 
 #film-card img{
