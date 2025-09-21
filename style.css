@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asimovian&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    margin: 0 auto;
+    
+}
+
+header{
+    width: 100vw;
+    height: 8rem;
+    background-color: black;
+    align-items: center;
+}
+
+.menu{
+    gap: 40px;
+    margin-left: 50vw;
+}
+
+.menu li a{
+    font: 1.3rem sans-serif;
+    font-weight: bold   ;
+    color: #fff;
+}
+
+#film{
+    margin-left: 5vw;
+    font-family: "Asimovian", sans-serif;
+    color: rgb(2, 163, 2);
+    font-size: 3rem;
+}
+
+#online{
+    font-family: "Archivo Black", sans-serif;
+    color: orange;
+    font-size: 2.5rem;
+    margin-top: 0.5%;
+}
+
+.underline-header{
+    width: 100vw;
+    height: 4px;
+    background-color: #fff;
+}
+
+.main{
+    flex-direction: column;
+}
+
+.main input{
+    width: 15vw;
+    aspect-ratio: 10 / 1.5;
+    margin: 45px auto;
+    font: calc(1rem + 5px) sans-serif;
+}
+
+.main form{
+    flex-direction: column;
+    margin: auto;
+}
+
+.main form button{
+    width: 8vw;
+    aspect-ratio: 10 / 3;
+    margin: 0 auto;
+    font: 1rem sans-serif;
+    background-color: rgb(48, 199, 3);
+    border-radius: 4px;
+}
+
+#film-card{
+    margin: 10px auto;
+}
